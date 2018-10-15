@@ -6,6 +6,10 @@
  */
 public class MainClass {
     public static void main(String[] args) {
+        UnionMap unionMap = new UnionMap(DefinitionCode.MAP_SIZE.MIDIUM);
+        //unionMap.printAll();
+    }
+    /*
         Long l = 0l;
         System.out.println("Result : " + factorial(15));
         for(int i=0;i<factorial(15);i++) {
@@ -17,4 +21,5 @@ public class MainClass {
     private static int factorial(int n) {
         return n == 1 ? 1 : n * factorial(n - 1);
     }
+    */
 }
