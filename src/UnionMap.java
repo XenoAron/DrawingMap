@@ -17,51 +17,15 @@ public class UnionMap {
         for (int i = 0; i < maxX / 2; i++) {
             for (int j = 0; j <= i; j++) {
                 this.unionMap[i][j] = DefinitionCode.AREA_CODE.A.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX - 1 - i][j] = DefinitionCode.AREA_CODE.B.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[i][maxY - 1 - j] = DefinitionCode.AREA_CODE.C.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX - 1 - i][maxY - 1 - j] = DefinitionCode.AREA_CODE.D.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX / 2 - 1 - i][maxY / 2 - 1 - j] = DefinitionCode.AREA_CODE.E.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX / 2 - 1 - i][maxY / 2 + j] = DefinitionCode.AREA_CODE.F.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX / 2 + i][maxY / 2 - 1 - j] = DefinitionCode.AREA_CODE.G.getValue();
-            }
-        }
-
-        for (int i = 0; i < maxX / 2; i++) {
-            for (int j = 0; j <= i; j++) {
                 this.unionMap[maxX / 2 + i][maxY / 2 + j] = DefinitionCode.AREA_CODE.H.getValue();
             }
         }
-
     }
 
     public void printAll() {
