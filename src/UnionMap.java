@@ -26,6 +26,13 @@ public class UnionMap {
                 this.unionMap[maxX / 2 + i][maxY / 2 + j] = DefinitionCode.AREA_CODE.H.getValue();
             }
         }
+
+        // 내부 영역 맵핑
+        for (int i = maxX / 2 - 5; i < maxX / 2 + 5; i++) {
+            for (int j = maxY / 2 - 6; j < maxY / 2 + 6; j++) {
+                this.unionMap[i][j] = DefinitionCode.AREA_CODE.ZERO.getValue();
+            }
+        }
     }
 
     public void printAll() {

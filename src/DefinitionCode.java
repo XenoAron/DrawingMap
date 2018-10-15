@@ -15,7 +15,8 @@ public final class DefinitionCode {
         E(5),
         F(6),
         G(7),
-        H(8);
+        H(8),
+        ZERO(0);
 
         private int value;
 
