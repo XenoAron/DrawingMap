@@ -22,6 +22,7 @@ public class UnionMap {
 
         for (int i = 0; i < maxX / 2; i++) {
             for (int j = 0; j <= i; j++) {
+                this.unionMap[maxX - 1 - i][j] = DefinitionCode.AREA_CODE.B.getValue();
             }
         }
 

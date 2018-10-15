@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6553fdd3-84d5-4799-998a-4f0fc1dde8eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/DefinitionCode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UnionMap.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" afterPath="$PROJECT_DIR$/src/MainClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/UnionMap.java" afterPath="$PROJECT_DIR$/src/UnionMap.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="UnionMap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UnionMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="35" column="98" lean-forward="true" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+            <state relative-caret-position="242">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="24" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -301,12 +299,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539583165011</updated>
-      <workItem from="1539583169254" duration="6306000" />
+      <workItem from="1539583169254" duration="6333000" />
     </task>
+    <task id="LOCAL-00001" summary="Map 초기화 방법1">
+      <created>1539591026767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539591026767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6306000" />
+    <option name="totallyTimeSpent" value="6333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,6 +363,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Map 초기화 방법1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map 초기화 방법1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -391,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="98" lean-forward="true" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+        <state relative-caret-position="242">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="24" selection-end-column="87" />
           <folding />
         </state>
       </provider>
